@@ -1,0 +1,23 @@
+.footer-icon {
+    font-size: 1.5rem;
+    color: #fff;
+    margin-right: 1rem;
+}
+.footer div nav ul:nth-child(2) {
+    padding: 0px;
+    margin: 0px;
+}
+.footer div nav ul:nth-child(2) li {
+    padding: 0px;
+    margin: 0px;
+}
+a {
+    padding: 0px;
+    margin: 0px;
+}
+.saturn-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1; /* Чтобы не задевать другие элементы */
+}

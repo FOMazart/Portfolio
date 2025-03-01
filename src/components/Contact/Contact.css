@@ -1,1 +1,9 @@
+.girl-img {
+    margin-bottom: 900px;
+    margin-right: 800px;
+    z-index: 1;
+}
 
+.contact-img {
+    position: absolute;
+}

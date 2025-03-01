@@ -1,4 +1,3 @@
-
 import React from 'react';
 import './Home.css';
 
@@ -11,8 +10,8 @@ const Home = () => {
             Based in Montreal</h1>
         
         <div className='buttons'>
-           <button className='cta'>Hire me</button>
-           <button className='cta'>Download CV</button>
+           <button className='cta pulse'>Hire me</button>
+           <button className='cta pulse'>Download CV</button>
         </div>
 
 
@@ -20,8 +19,8 @@ const Home = () => {
 
   
 
-      <img src="assets/illustration.svg" alt="logo" className="ill" />
-      <img src="assets/Group.svg" alt="logo" className="group" />
+      <img src="assets/illustration.svg" alt="logo" className="ill pulse" />
+      <img src="assets/Group.svg" alt="logo" className="group pulse" />
     </section>
 
 

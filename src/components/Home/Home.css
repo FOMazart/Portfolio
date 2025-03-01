@@ -1,5 +1,6 @@
 .home-section{
-
+  overflow: hidden; /* Предотвращение бокового скроллинга */
+  width: 100vw; /* Ограничение ширины экрана */
 }
 
 .ill{
@@ -48,4 +49,20 @@
 .introduction .buttons button:nth-child(2) {
   background: linear-gradient(45deg, #C961DE, #2954A3); /* Градиент для второго батона */
   color: white; /* Цвет текста для лучшей читаемости */
+}
+
+.pulse {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
