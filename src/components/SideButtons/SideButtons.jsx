@@ -14,10 +14,12 @@ const SideButtons = () => {
 
   return (
     <div className="side-buttons">
-      <button onClick={() => scrollToSection('home')}>Home</button>
-      <button onClick={() => scrollToSection('about')}>About</button>
-      <button onClick={() => scrollToSection('work')}>Work</button>
-      <button onClick={() => scrollToSection('contact')}>Contact</button>
+      <nav>
+        <button onClick={() => scrollToSection('home')}>Home</button>
+        <button onClick={() => scrollToSection('about')}>About</button>
+        <button onClick={() => scrollToSection('work')}>Work</button>
+        <button onClick={() => scrollToSection('contact')}>Contact</button>
+      </nav>
     </div>
     
   );
