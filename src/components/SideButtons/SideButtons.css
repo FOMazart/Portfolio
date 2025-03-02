@@ -22,19 +22,24 @@
   filter: brightness(0); /* Иконки черные до нажатия */
 }
 
-/* .side-buttons button.active img,
-.active-img {
-  filter: brightness(1) !important; 
-} */
+.side-buttons nav ul li button img {
+  filter: brightness(0);
+  transition: filter 0.3s ease;
+}
 
-@keyframes wave {
+.side-buttons nav ul li button img.active-img {
+  filter: brightness(1);
+}
+
+/* Remove or comment out the @keyframes wave animation if it exists */
+/* @keyframes wave {
   0% {
     filter: brightness(0);
   }
   100% {
     filter: brightness(1);
   }
-}
+} */
 
 .side-buttons nav ul {
   display: flex;
