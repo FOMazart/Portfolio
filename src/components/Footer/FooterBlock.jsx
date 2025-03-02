@@ -24,8 +24,9 @@ const Footer = () => {
                   <a href="#contact">Contact</a>
                 </li>
 
-                <img src="../../assets/saturn.svg" className="saturn-img" />
               </ul>
+              <img src="../../assets/saturn.svg" className="saturn-img" />
+              <img src="../../assets/rings.svg" className="ring-img" />
 
               <ul>
 
