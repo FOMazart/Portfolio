@@ -19,7 +19,7 @@ const Home = () => {
 
   
 
-      <img src="assets/illustration.svg" alt="logo" className="ill pulse" />
+      <img src="assets/Illustration.svg" alt="logo" className="ill pulse" />
       <img src="assets/Group.svg" alt="logo" className="group pulse" />
     </section>
 
