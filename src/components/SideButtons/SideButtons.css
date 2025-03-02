@@ -18,10 +18,23 @@
     background : none;
   }
 
-.work-bar {
-  filter: brightness(0);
+.side-buttons div nav ul li button img {
+  filter: brightness(0); /* Иконки черные до нажатия */
 }
 
+/* .side-buttons button.active img,
+.active-img {
+  filter: brightness(1) !important; 
+} */
+
+@keyframes wave {
+  0% {
+    filter: brightness(0);
+  }
+  100% {
+    filter: brightness(1);
+  }
+}
 
 .side-buttons nav ul {
   display: flex;
