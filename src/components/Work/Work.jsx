@@ -5,7 +5,9 @@ import './Work.css';
 const Work = () => {
   return (
     <section id="work" className="section work-section">
-      <h1>work</h1>
+      <img src="assets/Designs.svg" alt="logo" className="designs" />
+      <img src="assets/UI_Design.svg" alt="logo" className="ui" />
+      <img src="assets/Mockups.svg" alt="logo" className="mockups" />
     </section>
   );
 };

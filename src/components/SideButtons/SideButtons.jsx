@@ -17,16 +17,16 @@ const SideButtons = () => {
       <nav>
         <ul>
           <li>
-            <button onClick={() => scrollToSection('home')}> <img src="../../assets/home_bar.svg" className='home-bar'/> </button>
+            <button onClick={() => scrollToSection('home')}> <img src="../../assets/icons/home_bar.svg" className='home-bar'/> </button>
           </li>
           <li>
-            <button onClick={() => scrollToSection('about')}><img src="../../assets/person.svg" className='person-bar'/></button>
+            <button onClick={() => scrollToSection('about')}><img src="../../assets/icons/person.svg" className='person-bar'/></button>
           </li>
           <li>
-            <button onClick={() => scrollToSection('work')}><img src="../../assets/work_bar.svg" className='work-bar'/></button>
+            <button onClick={() => scrollToSection('work')}><img src="../../assets/icons/work_bar.svg" className='work-bar'/></button>
           </li>
           <li>
-            <button onClick={() => scrollToSection('contact')}><img src="../../assets/Phone_bar.svg" className='Phone-bar'/></button>
+            <button onClick={() => scrollToSection('contact')}><img src="../../assets/icons/Phone_bar.svg" className='Phone-bar'/></button>
           </li>
         </ul>
       </nav>
